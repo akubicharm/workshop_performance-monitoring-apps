@@ -6,7 +6,6 @@ components:
   - name: tools
     container:
       image: quay.io/redhat_na_ssa/universal-developer-image:ubi8-latest # our fork - 2.0GB compressed
-      #image: quay.io/devfile/universal-developer-image:latest# upstream - 3.7GB compressed
       #image: registry.redhat.io/devspaces/udi-rhel8:latest #1.7GB compressed
       #image: registry.redhat.io/devspaces/udi-rhel8@sha256:d18f22ef1aa2e5d1da4e3356ee1fc8fa59f795cdc3ab9d54c666054fbcfecd8f
       env:
